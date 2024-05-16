@@ -1,11 +1,12 @@
-const array = []
-for(let i = 0; i < 6; i++){
-    let myNumber = Number.parseInt (prompt ('Digita un numero'))
-    if(myNumber % 2 === 0){
-        array.push(myNumber)
+const array = [43,45,54,54,54,5,5656,76,75,58,67,8,78,98]
+const arrayFirst = [32,36,5,76,57]
+
+for(let i = 0 ; i = (array.length - arrayFirst.length); i + 1){
+    if(array.length < arrayFirst.length){
+        array.push(Number.parseInt(Math.random()* 100))
     }
-    else{
-        console.log('Questo numero é dispari', myNumber)
+    else if (array.length > arrayFirst.length){
+        arrayFirst.push(Number.parseInt(Math.random()* 100))
     }
 }
-console.log(array)
+console.log(array, arrayFirst)
