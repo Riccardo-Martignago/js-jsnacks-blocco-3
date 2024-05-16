@@ -14,3 +14,7 @@
             Sì, lo sappiamo che esistono le funzioni includes() e indexOf() ma noi non le vogliamo utilizzare per cercare nel frigorifero.
 
 //Procedura\\
+Creo l'array con la frutta.
+Aggiungo la pesca nell'array.
+Creo un ciclo che controlli la lunghezza della stringa.
+Se la lunghezza della stringa corrisponde alla lunghezza della parola cocomero stampiamo "Trovato! Devo solo preparare il cocktail.", altrimenti "Oh no, devo uscire a comprare il cocomero!"
