@@ -1,8 +1,6 @@
-const email = prompt('Inserisci la tua email')
-const listaEmail = ['cribbio@speedy.com', 'capperosottoaceto80@frittella.nt', 'calamarofritto43@griglia.up']
-if (listaEmail.includes(email)){
-    console.log('Puo accedere alla pagina!')
+const array = []
+const numberEl = Number.parseInt(prompt('Quanti elementi devo essere presenti nella lista?'))
+for(i = 0; i < numberEl; i++){
+    array.push (Number.parseInt(Math.random()* 101 + 1))
 }
-else{
-    console.log("Non puo accedere alla pagina, l'email non corrisponde a un email valida!")
-}
+console.log(array.slice(-5))
