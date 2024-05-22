@@ -9,5 +9,8 @@ const palla = {
 }
 console.log(palla)
 palla.peso = Number.parseFloat((prompt('Inserisci il peso della palla')), 10);
+if(palla.peso < 10){
+    palla.peso = 10
+}
 
 console.log(palla, palla.peso)
