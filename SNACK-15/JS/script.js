@@ -9,9 +9,9 @@ const palla = {
 }
 console.log(palla)
 palla.peso = Number.parseFloat((prompt('Inserisci il peso della palla')), 10);
-if(palla.peso < 10){
-    palla.peso = 10
-    console.log("Il peso inserito non rispetta i requisiti minimi")
+while(palla.peso <= 9){
+    if(palla.peso < 10){
+        palla.peso = Number.parseFloat((prompt('Il peso inserito non rispetta i requisiti minimi, inserire un peso superiore a 10')), 10);
+    }
 }
-
 console.log(palla, palla.peso)
